@@ -1,6 +1,6 @@
 import queue
 
-shoppingline=queue.Queue()#first in first out, for stack use queue.LifoQueue()
+shoppingline=queue.Queue()#first in first out, for stack use queue.LifoQueue(), for priority use queue.PriorityQueue()
 for i in range (7):
     shoppingline.put(i)
 print(shoppingline)
